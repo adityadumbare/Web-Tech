@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1 {
+            height: 500px;
+            width: 300px;
+            /* border: 0.1px solid; */
+            margin: 0 auto;
+        }
+
+        #insta {
+            height: 50px;
+            width: 180px;
+            margin: 0 auto;
+            margin-top: 20px;
+            background-image: url(./CSSI/instadownload.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #box3 {
+            width: 240px;
+            height: 40px;
+            /* border: 0.1px solid; */
+            margin: 0 auto;
+            margin-top: 5px;
+            text-align: center;
+            font-weight: bold;
+            opacity: 0.6;
+
+        }
+
+        .slbutton {
+            /* width: 240px;
+            height: 40px; */
+            /* display: inline-block; */
+            /* border: none; */
+            /* margin-left: 30px; */
+            /* margin-top: 15px; */
+            /* padding: 10px 47px; */
+            /* text-align: center; */
+            /* font-weight: bold; */
+            /* background-color:rgb(2, 183, 233); */
+            /* border-radius: 10px; */
+        }
+
+        .slbutton a {
+            text-decoration: none;
+            color: rgb(254, 254, 255);
+            display: inline-block;
+            width: 230px;
+            height: 17px;
+            padding: 8px;
+            background-color: rgb(3, 157, 253);
+            border-radius: 20px;
+            text-decoration: none;
+            text-align: center;
+            /* margin-top: 50px; */
+            margin-left: 30px;
+            margin-top: 15px;
+            font-weight: bold;
+
+        }
+
+        #parent1 {
+            width: 250px;
+            height: 160px;
+            /* border: 0.1px solid; */
+            margin: 0 auto;
+            /* margin-top: 15px; */
+            text-align: center;
+
+        }
+
+        .input1 {
+            width: 234px;
+            height: 25px;
+            border: 0.1px solid;
+            margin: 0 auto;
+            margin-top: 5px;
+            outline: none;
+            opacity: 0.5;
+        }
+
+        #parent1 .input1[placeholder] {
+            padding: 4px;
+        }
+
+        #button1 {
+            display: inline-block;
+            margin-left: 30px;
+            margin-top: 10px;
+
+            background-color: rgb(3, 157, 253);
+            border: none;
+            color: aliceblue;
+            text-align: center;
+            font-weight: bold;
+            height: 30px;
+            width: 240px;
+            border-radius: 20px;
+        }
+
+        #button1 a {
+            text-decoration: none;
+            color: aliceblue;
+            padding: 20px 100px;
+        }
+
+        #othertext {
+            width: 240px;
+            height: 90px;
+            /* border: 0.1px solid; */
+            margin: 0 auto;
+            margin-top: 10px;
+            text-align: center;
+            font-size: small;
+            opacity: 0.8;
+
+        }
+
+        #or {
+            height: 20px;
+            width: 120px;
+            margin: 5px auto;
+
+            opacity: 0.4;
+            text-align: center;
+            /* border: 1px solid; */
+        }
+    </style>
+</head>
+
+<body>
+    <form action=""></form>
+    <div id="box1">
+        <div id="insta"></div>
+        <div id="box3">Sign up to see photos and videos from your friends.</div>
+        <div id="fbsignup" class="slbutton"> <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i> Log
+                in With Facebook</a></div>
+        <div id="or">
+            --------OR-------
+        </div>
+        <div id="parent1">
+            <input type="text" name="" id="" class="input1" placeholder="mobile number or email">
+            <input type="email" name="" id="" class="input1" placeholder="full name">
+            <input type="text" name="" id="" class="input1" placeholder="username">
+            <input type="password" name="" id="" class="input1" placeholder="password">
+        </div>
+
+        <div id="othertext">People who use our service may have uploaded your contact information to Instagram. Learn
+            More
+            <br>
+            <br>
+            By signing up, you agree to our Terms , Privacy Policy and Cookies Policy .
+        </div>
+
+        <!-- <input type="submit" value="Sign Up" class="button1"> -->
+        <div id="button1">
+            <a class="button1" href="">Login</a>
+        </div>
+    </div>
+    </form>
+</body>
+
+</html>

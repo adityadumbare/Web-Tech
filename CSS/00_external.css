@@ -1,0 +1,12 @@
+/* EXTERNAL CSS */
+/* EXTERNAL PRIORITY WILL BE GIVEN TO THE EXTERNAL CSS */
+h1{
+    color:red !important;
+}
+h1{
+    color: darkgoldenrod !important;
+}
+h2{
+
+    background-color: yellow;
+}

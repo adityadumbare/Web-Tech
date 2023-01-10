@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          .box{
+            width: 100px;
+            height: 100px;
+            border: 1px solid;
+            background-color: gold;
+            animation-name: box;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+            position: relative;
+            
+    
+        }
+        @keyframes box {
+            from{
+                top: 0px;
+            }
+            to{
+                top: 300px;
+                background-color: orange;
+            }
+        }
+        #box2{
+            animation-fill-mode:both;
+            position: relative;
+            right: 200px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <!-- <div class="box" id="box3"></div> -->
+</body>
+</html>

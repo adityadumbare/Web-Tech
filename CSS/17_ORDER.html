@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 500px;
+            width: 500px;
+            background-color: aqua;
+            border: 1px solid;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+        .card{
+            height: 70px;
+            width: 70px;
+            background-color: blue;
+            border: 1px solid;
+
+        }
+        #card1{
+            order: 0;
+        }
+        #card2{
+            order: 1;
+        }
+        #card3{
+            order: -19999999;
+        }
+        #card4{
+            order:1;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="card" id="card1">card1</div>
+        <div class="card" id="card2">card2</div>
+        <div class="card" id="card3">card3</div>
+        <div class="card" id="card4">card4</div>
+    </div>
+</body>
+</html>

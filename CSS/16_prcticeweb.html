@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .outCircle {  
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  left: 270px;
+  position: absolute;
+  top: 50px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+}
+.rotate {
+  width: 100%;
+  height: 100%;
+  -webkit-animation: circle 10s infinite linear;
+}
+.counterrotate {
+  width: 50px;
+  height: 50px;
+  -webkit-animation: ccircle 10s infinite linear;
+}
+.inner {
+  width: 100px;
+  height: 100px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: red;
+  display: block;
+}
+@-webkit-keyframes circle {
+  from {
+    -webkit-transform: rotateZ(0deg)
+  }
+  to {
+    -webkit-transform: rotateZ(360deg)
+  }
+}
+@-webkit-keyframes ccircle {
+  from {
+    -webkit-transform: rotateZ(360deg)
+  }
+  to {
+    -webkit-transform: rotateZ(0deg)
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="outCircle">
+        c<div class="rotate">
+          c<div class="counterrotate">
+            c<div class="inner">
+                <br>
+        hello
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>

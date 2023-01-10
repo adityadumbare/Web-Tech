@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <Style>
+        #div1{
+            height: 500px;
+            width:280px;
+            border: 2px solid;
+            border-radius: 20px;
+            margin: 0 auto;
+            margin-top: 50px;
+            background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEA8SEA0PDxASDw0PFRIPDQ8NDxAQFREWFhUVFRUYHSggGBolHRUVITEhJSk3Li4uFx8zODMtNygtLisBCgoKDg0OFxAQFy0dHR0tLS0tLS0tLTctLS0tKy0tLS0tLS0rKy0tLSstKy0tKy0tNysrKy0rLS0tKy0rLS0rK//AABEIAQMAwgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAAAQIDBAYF/8QAKxAAAgIBAwQCAgEEAwAAAAAAAAECEQMhMUEEEnGxUWGBkfHB0eHwEzJC/8QAGgEAAwEBAQEAAAAAAAAAAAAAAQIDAAQGBf/EAB0RAQEBAQADAQEBAAAAAAAAAAABAhEDMUESIVH/2gAMAwEAAhEDEQA/AOcAA9Q+KAADMAADMAADMBpAdnTYK1e/H0C3hsYuqWHDWr39FNGrNumwXq9vZK6+uzPj+RHTdN/6a8L+p0s1YY8Vv6JXXf7XXnx8/kThxd2+x1BSWiGok7eujOOEkY5st6Lb2VnycL8mCVhkG/4SVmyjXn4+C4x7d9+F8Eh70+c8IBpDoCsyQ0rGo2baR8+gWqTJf8Iie5/LAH9P+XlAAD6DxwAAMwABmYh0Ojp6bBer29gt4fOLq8PpsHL/AAv6nUxl4sfc/ojdd/rtx4+fyFgw9z+jtqhxilothxjZK3rsxjhQhbNttEOq0RcIE7V85TGBGadaI1ySrz6OerND2fGXbZtGCire/CNYwUVb3MpOw96aZ4hsEh0bQhRrTzKVGg7bNO0rbz6B1WRH/Xz6M2aULtMpIigL7GBum48iAAfQeJAAOjMKHQJG2DD3P65BafOen02Du1e3s76CMa0QURt67seP8w4RbdI7oQUVSJw4u1fZoR1euzGOFVm6VeRRjXn0aRj+xLXRnIhAc5UOTowbsHtT0l6+TeEFFWx44Vq9xS1N00yzlqZsub+CseP9hNIMcK8miiaRgJ6i9UkSTRpQ+0HTyM6BRKq/BVGMigH3L5AwvFDCh0fSeIkCQ0gSLjG9EZSZGPG5Ol/B9HHBRVIWDF2r75LI6112+Px/mA6umxVq/wAEdPivV7ezqJavx1+PH0GkI1r+hQjzx7Nox5e5O105yIx+dytgSMpysVXhSlbNceOtXv6DHCtXuWa00iXqZZJFzkGOBjyJx4+TojCioxoT18At6eRL18expFJGiQvRR2kNX4NWQzGiGiJyLmzGQ0PIQE9wDHeSopIEikjveKmSSO/p8Pbq9/RPS4eX+P7nST1r46/F4uf2kaYcdv2KELdHZCNKv9ZK3jrxjppVsVGIRibwj+vZK11ZyIx/wUMmcq8iqyJyS4RWOFBCBokDppAROQ5SJhCzHkEIWdEYjjGiW7Bb03A3Y6AuKAISBjbJYBJkyY5MhhhoiRhJ2VknZnKVIeRSKEYd7+RDcF8BI6Omw3q9vZODD3P6R3pHVrXx5XxeL7QCQHV0+KtX+Polbx2Zx1WLH2r7NEgRrjgStdOcqxwLABFpA3RMY/O40uX/AAaRiY0giiZyCciIqzHkEY2dMY0EI0KUgW9ESYIEVGIDHGI2wbIsDGJsCGwiGzmy5LHmyGQ8ikgbownKwyTvwQ2UkHosZFjCX9MMcElSKGaYcV+BrXxc4+KwYr1e3s6QSLhGydrpznh44WbAlQE7VpAhFMIxsxpDjGwnIc5UY7gPIErOiEKDHCvISka0RKQkCLigCIopgZt2BvZ3YATJhESZz5snAZchgPIeQ0Y5Z8Dy5OEYNjyN02yWwbJbHJrR2BNiDxP9NccLZ2RjSpCxwpFxRO3rlzjgjE3jGghGhk7VpAVt5BKhbgPIErLlKkGiRjJ2b2aQm7N8WOvIsWOtXuVJmtMJMQFRiATjEoDOcrAHsSlY0JA2ERJnPlyfA82SjlbHkNIZGSdeRzlSOaUh5GtDZLYNktj8T1oNktg2S2NxDWzsCLAPE/2+wkbwjXkWOFFHNatIC4qtRRiEnYp5CepolSCMaMsk78G9mkTOVmuLHyxYsfLNJM1phJkgEVYGOMTQEiJzB7D2U5CSEkUEQ2YZsleR5clHJKQ2YMDYm6A58uS/BSQLSnOyGwbJbKSJ60GyWxNkth4hrZtktibJbG4hrZ2BFjDxL9vTMcYiirKk+DifUkKTKjEIRFkmYeJyT4DFjvV7CxwvwbN0Y3oNkgStQDIaVmyQooU50ACnMzSApBb0ZllyUPJOjjyTsaTrCcrIAzzZK059FJAuk5snCMWxNktlJEdaNslsTZLY3EdbNslsTZDYeOfWzbJbE2S2NxDWzsCbAPE/29c3QQiKKsps4H3+FOVGcI2w3ZulSN6N6GxIWS3YGkG/g1hEUIlSlRqFpTlRjY2xxRm9BIU5UOTo482S/A0nQLLksyYNilKkUkLaWSdI5ZSCc7IbKSI60GyWwbJbG4hrYbJbE2S2NxDWzbJbE2S2NxDWw2S2DZLYeIa0dgTYBT/T2jZm3eiCT4RrCFHzvT1XoRjSE2NsiTAwk+CoRFCJrsahaG6MZOwlKxIMgHFDbA5+oy8Bk6FqM+XhHO2DYikhboWc2XJfgefJwtjBspmI62bZLYmyWx+OfWzbJbE2S2HiGthslsTYmxuOfWw2S2JsTY3EdaDZLYNkthRujsCbGYn6e2xRrfctsmwbo+a9iG6JihLU3hGjNbw0qMpysMkzNs0hTKSFFE5clIJbU5stHFKQ5zszbKScJdGZZslaLf0VknSOSUh5EdbDZLYmyWynHPrYbJbE2S2Nxz62bZLYmyWxuIa2bZLYmyWwo60bZLYNkthRujbEIQU7TAQGL17eLFd+DHJPgvp7/B83j29dOOIskxTmZtg4mLHFErUqTCFonKjhy5LZWfLehg2PnKetBslutwRzZst6Lb2Uk6jrfE5J2zNsTZLZWRy62bZLYmyWw8Q1s2yWxNktjcQ1s2yWxNkthR1o2yWwbE2MjdCxAIxLQAAYAAAZnroRtnQ3SFFdqM5M+d7e0tUpDsybLxmJa1WhzdRl4RefLSOGUhs5T1oNkibJyZO1eikiGtI6jJx+zmbFKRLZWTjm3s2yGwbJbG459bDZLYNktjcQ1oNibE2S2FG6NsVibEFK6AgAxAAAZgAAZgAAZnsZSIbBsls+fx7C1S1ZpKVImOiOXPlsMnU9a4nJO2ZyYNkFJENaOzky5LZfU5OF+TmbKZjm8m/htktibJbH45dbNslsTYmxkdaDZLYNisKN0LFYhBTtMQAYoAAMwAAMwAAMwAAMz1goboAOF6yjqXocYANn0jtMge34EA6GnC2QxgVcekMlgAyOiZLAAo0iRgFKpYABigAAzAAAzAAAzAAAzAAAzP/Z);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        #circle{
+            height: 200px;
+            width: 200px;
+            border: 2px solid;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-top: 40px;
+            background-image: url(./CSSI/PicsArt_07-30-04.00.57.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-size: 100%;
+
+
+        }
+        #box1{
+            height: 50px;
+            width:200px;
+            /* border: 2px solid; */
+            margin: auto;
+            margin-top: 15px;
+            text-align: center;
+            font-size: 21px;
+        }
+        #box2{
+          
+            height: 130px;
+            width:200px;
+            border: px solid;
+            padding-top: 5px;
+            margin: auto;
+            margin-top: 5px;
+            background-color: rgb(255, 255, 255);
+            padding-right: 35px;
+            padding-left: 0px;
+            border-radius: 20px;
+        }
+
+    </Style>
+</head>
+<body>
+    <div id="div1">
+        <div id="circle"></div>
+        <div id="box1"><Strong> ADITYA DUMBARE</Strong></div>
+        <div id="box2">
+            <ul type="none">
+                <li><b> IT Engineer</b></li>
+                <li>adityadumbare85@gmail.com</li>
+                <li>+919921819823</li>
+                <li>Pune, Maharashtra</li>
+            </ul>
+        </div>
+        <div id="box3"></div>
+    </div>
+</body>
+</html>

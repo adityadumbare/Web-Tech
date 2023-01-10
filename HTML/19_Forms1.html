@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        font {
+            font-style: italic;
+        }
+
+        body {
+            text-align: center;
+            background-color: black;
+            color: rgb(0, 255, 115);
+        }
+
+        form input {
+            display: inline-block;
+        }
+
+        #password {
+            margin-right: 22px;
+
+        }
+
+        .matrix {
+            /* border-radius: 8px; */
+            /* border-left: 10px solid red; */
+            /* border-top-left-radius: 20px;
+            border-end-end-radius: 20px; */
+            border-radius: 9px;
+            border: 2px solid rgb(94, 94, 94);
+            background-color: rgb(245, 251, 215);
+            display: inline-block;
+
+        }
+
+        legend {
+            border: 2px white solid;
+            width: 83px;
+            padding-left: 25px;
+            padding-right: 25px;
+
+        }
+
+        legend {
+            margin-bottom: 59px;
+            margin: auto 314px;
+            margin-top: auto;
+            margin-right: 314px;
+            margin-bottom: auto;
+            margin-left: 314px;
+        }
+
+        fieldset {
+            /* width:48px; */
+
+            /* padding: 7px 0px;
+    margin: 34px 67px 0px 35px; */
+            margin-top: 35px;
+        }
+
+         #welcome {
+            margin-right: -48px;
+        }
+
+        /* header {
+            text-align: left;
+
+        }
+        nav{
+            display: flex;
+            display: inline-block;
+        }
+        button{
+            color:lightskyblue;
+        } */
+        #overall{
+            display: flex;
+            flex-direction:row;
+            margin:20px1;
+            justify-content: center;
+            border:2px solid white;
+            border-radius: 20px;
+            width: 20;
+        }
+        #menu{
+            flex-basis: 70px;
+        }
+        #home{
+            flex-basis: 70px;
+        }
+        #contact{
+            flex-basis: 70px;
+        }
+        #Aboutus{
+            flex-basis: 70px;
+        }
+    </style>
+</head>
+<body>
+    
+        <div id="overall">
+            <h4 id="menu">
+                Menu
+            </h4>
+            <h4 id="home">
+                Home
+            </h4>
+            <h4 id="contact">
+                Contact
+            </h4>
+            <h4 id="Aboutus">
+                About Us
+            </h4>
+        </div>
+
+    <center>
+        <fieldset width="200px" hight="300px">
+            <legend>Matrix Form</legend>
+            <br>
+            <form action="">
+                <label for="Name">Name:</label>
+                <input type="text" name="name" id="Name" class="matrix" placeholder="Enter Yor Name">
+                <br>
+                <br>
+                <label for="Email">Email:</label>
+                <input type="email" name="" id="Email" class="matrix" placeholder="Enter Email Address">
+                <br><br>
+                <label for="">Password:</label>
+                <input type="password" name="" id="password" class="matrix" placeholder="ex.12345678">
+                <br>
+                <br>
+                <input type="submit" value="Welcome to The Matrix" class="matrix" id="welcome" autofocus colo>
+
+            </form>
+        </fieldset>
+    </center>
+</body>
+
+</html>

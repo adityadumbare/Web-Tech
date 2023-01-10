@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #parent{
+            width: 350px;
+            height: 300px;
+            /* background-color: aqua; */
+            background-image: linear-gradient(rgb(54, 247, 247),blue);
+            border: 1px solid;
+            font-weight: 600;
+            display: flex;
+            margin: 0 auto;
+            margin-top: 100px;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            opacity: 1;
+            /* flex-wrap: wrap; */
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            /* background-color: rgb(168, 3, 250); */
+            background-image: linear-gradient(rgb(229, 255, 0),rgb(0, 255, 0));
+            border: 1px solid;
+            
+        }
+        #child2{
+            align-self:flex-start;
+            /* order: 1; */
+        }
+        #child3{
+            align-self:flex-end;
+            /* order:2; */
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child" id="child1">CHILD1</div>
+        <div class="child" id="child2">CHILD2</div>
+        <div class="child" id="child3">CHILD3</div>
+        <div class="child" id="child4">CHILD4</div>
+    </div>
+</body>
+</html>

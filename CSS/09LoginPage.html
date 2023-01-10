@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./font/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Sevillana&display=swap" rel="stylesheet">
+    <style>
+
+ @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Sevillana&display=swap'); 
+ *{
+    font-family: 'Balsamiq Sans', cursive;
+/* font-family: 'Sevillana', cursive; */
+ }
+        #box1{
+            height: 440px;
+            width: 340px;
+            /* border: 0.1px solid; */
+            margin: 0 auto;
+            margin-top: 50px;
+            border-radius: 3px;
+            /* background-color: rgb(244, 244, 245); */
+            /* opacity: 0.7; */
+        }
+        #box2{
+            height: 170px;
+            width:270px;
+            /* border: 1px solid; */
+            margin: 0 auto;
+            margin-top: 1px;
+            border-radius: 20px;
+            padding: 15px;
+            
+        }
+        /* placeholder{
+            padding: 2px;
+
+        } */
+        #email{
+            width: 258px;
+            height: 36px;
+            /* border:0.1 solid; */
+            border: none;
+            border-bottom: 0.1px solid;
+            outline: none;
+            /* background-color: rgb(235, 237, 239); */
+            margin-bottom: 7px;
+            opacity: 0.6;
+            
+        }
+        #pass{
+            width: 258px;
+            height: 36px;
+            /* border:0.070 solid; */
+            border: none;
+            border-bottom: 0.1px solid;
+            /* border-radius: 90px; */
+            outline: none;
+            opacity: 0.6;
+            margin-bottom: 7px;
+        }
+        #login{
+            margin:0 auto;
+            margin-top: 5px;
+            position: relative;
+            /* left: 70px; */
+            background-color: rgba(4, 181, 235, 0.8);
+            width: 268px;
+            height: 34px;
+            border-radius: 10px;
+            border: 0.1px solid;
+            outline: none;
+            color: azure;
+            /* font-weight: 300; */
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        /* i[class="fa fa-user-o"]{ */
+            /* display: inline; */
+            /* position: relative;
+            top: ; */
+        /* } */
+
+/* 
+        input[type="submit"]
+        {
+            border: 0.1px solid;
+        } */
+      /* input[placeholder]{
+        padding: 2px;
+        margin-left: 2px;
+      } */
+      #insta{
+        height: 50px;
+        width: 180px;
+        /* border: 1px solid; */
+        margin: 0 auto;
+        margin-top: 70px;
+        background-image: url(./CSSI/instadownload.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+      }
+      #or{
+        height: 36px;
+        width: 120px;
+        margin: 0 auto;
+        opacity: 0.4;
+        text-align:center;
+      }
+      #fb{
+        height: 40px;
+        width: 200px;
+        margin: 0 auto;
+        text-decoration: none;
+        color: rgba(0, 132, 255, 0.756);
+        text-align: center;
+        font-size: medium;
+            /* font-weight: bold; */
+      }
+      #forgot{
+        height: 40px;
+        width: 200px;
+        margin: 0 auto;
+        text-decoration: none;
+        text-align: center;
+        color: slategrey;
+        font-size: small;
+
+      }
+      #fb a{
+        text-decoration: none;
+        color: rgb(0, 119, 255);
+
+      }
+      #forgot a{
+        text-decoration: none;
+        color: rgba(171, 172, 173, 0.756);
+
+      }
+        
+
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <div id="insta"></div>
+        <div id="box2">
+            <form action="">
+            <br>
+            <!-- <label for="email"><i class="fa fa-user-o" aria-hidden="true"></i></label> -->
+            <input type="email" name="email" id="email" placeholder="phone number,email,username">
+                <br>
+                <!-- <br> -->
+            <!-- <label for="pass"> -->
+                <!-- <i class="fa fa-key" aria-hidden="true"></i> -->
+            <!-- </label> -->
+            <input type="password" name="" id="pass" placeholder="password">
+            <br>
+            <!-- <br> -->
+            <input type="submit" value="Log in" id="login">
+        </form>
+        </div>
+        <div id="or">
+            --------OR-------
+        </div>
+        <div id="fb">
+            <a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i> Log in With Facebook</a>
+        </div>
+        <div id="forgot"><a href="#">Forgot password ?</a></div>
+    </div>
+</body>
+</html>

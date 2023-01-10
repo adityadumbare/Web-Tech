@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    Heading
+    <h1>Heading for page</h1>
+    <img src="1665303551979.jpg" alt="Picture"width="650" height="800"
+
+    <button class="button button1">Green</button>
+    <button class="button button2">Blue</button>
+    <p>This is normal text - <b>and this is bold text</b>.</p>
+    <canvas id="myCanvas">
+        Your browser does not support the canvas tag.
+        </canvas>
+        
+        <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        ctx.fillRect(0, 0, 80, 80);
+        </script>
+
+<canvas id="myCanvas">
+    Your browser does not support the canvas tag.
+    </canvas>
+    
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.fillStyle = "red";
+    ctx.fillRect(20, 20, 75, 50);
+    //Turn transparency on
+    ctx.globalAlpha = 0.2;
+    ctx.fillStyle = "blue";
+    ctx.fillRect(50, 50, 75, 50);
+    ctx.fillStyle = "green";
+    ctx.fillRect(80, 80, 75, 50);
+    </script>
+    <embed type="text/html" src="snippet.html" width="500" height="200">
+    <button>click</button>
+</body>
+</html>   

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Roboto,Arial,sans-serif;
+            background-image: url(./CSSI/pexels-johannes-plenio-1103970.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            
+        }
+        #parent{
+            width: 650px;
+            height: 500px;
+            /* border: 1px solid; */
+            display: flex;
+            margin-top: 40px;
+        }
+        .box{
+            width: 300px;
+            height: 498px;
+            /* border: 1px solid; */
+
+        }
+        #box1{
+            width: 270px;
+            background-color: blue;
+            background-image: url(./CSSI/flipkartlogin1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+           
+    
+        }
+        #block{
+            width: 180px;
+            height: 400px;
+            margin: auto;
+            margin-top: 50px;
+            color: azure;
+            /* font-weight: bold;
+            font-size: large; */
+            line-height: 26px;
+            
+        }
+        h2{
+            /* font-weight: 2900; */
+            /* font-size; */
+        }
+        #box2{
+            width: 380px;
+            background-color: white;
+            font-size: medium;
+        }
+        #parentemail{
+            width: 300px;
+            height: 150px;
+            /* border: 1px solid; */
+            margin: auto;
+            margin-top: 50px;
+            /* display: flex; */
+            /* justify-content: center; */
+        }
+        #email{
+            border: none;
+            border-bottom: 0.1px solid;
+            outline: none;
+            width: 300px;
+            position: relative;
+            left: 0px;
+            top: 10px;
+        }
+        input::placeholder{
+            font-size: larger;
+        }
+        input::placeholder:hover{
+            font-size: small;
+        }
+        #p1{
+            opacity: 0.8;
+            font-size: large;
+        }
+        #term{
+            width: 300px;
+            height: 50px;
+            /* border: 1px solid; */
+            position: relative;
+            top: 40px;
+            font-size: 10px;
+            font-weight: 600;
+            color: grey;
+            
+        }
+        a{
+            text-decoration: none;
+        }
+        #request{
+            width: 300px;
+            height: 50px;
+            /* border: 1px solid; */
+            position: relative;
+            top:50px;
+          
+        }
+       #Req{
+            padding: 14px 101px;
+            margin: auto;
+            margin-top: 0px;
+            background-color: #fb641b;
+            display: inline-block;
+            /* text-decoration: none; */
+            color: azure;
+            font-weight:bolder;
+            font-size: medium;
+        }
+        #newtop{
+            width: 380px;
+            height: 15px;
+            /* border: 1px solid; */
+            display: inline-block;
+            position: relative;
+            margin:0 auto;
+            top: 240px;
+            /* left: 50px; */
+            font-size: small;
+            font-weight: bold;
+            
+        }
+        #newto{
+            width: 214px;
+            height: 15px;
+           
+            margin: 0 auto;
+            /* border: 1px solid; */
+            font-size: small;
+            font-weight: bold;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="box" id="box1">
+           <div id="block">
+            <h2>Login</h2>
+
+        <p id="p1"> Get access to your Orders, Wishlist and Recommendations</p>
+           </div>
+           
+        </div>
+        <div class="box" id="box2">
+            <div id="box2parent">
+                <div id="parentemail">
+                   <input type="email" name="" id="email" placeholder="Enter Email/Mobile Number">
+                   <div id="term">By continuing, you agree to Flipkart's <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</div>
+                   <div id="request"><a href="http://127.0.0.1:5500/WEWM6/CSS/17_flipkartsign.html" target="_self" id="Req">Request OTP</a></div>
+                </div>
+            </div>
+            <div id="newtop">
+            <div id="newto">
+                <a href="">New to Flipkart? Create an account</a>
+            </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

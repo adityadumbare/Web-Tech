@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* align-content is the supermost parent property of flex  */
+        /* and it works opposite when use of flex direction */
+        #parent{
+            width: 750px;
+            height: 400px;
+            /* background-color: aqua; */
+            background-image: linear-gradient(rgb(54, 247, 247),blue);
+            border: 1px solid;
+            font-weight: 600;
+            margin: 0 auto;
+            margin-top: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            /* flex-direction: column-reverse; */
+            /* align-content: space-between; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: row; */
+            justify-content: space-evenly;
+            align-content: space-evenly;
+        }
+        .child{
+            width: 100px;
+            height: 100px;
+            /* background-color: rgb(168, 3, 250); */
+            background-image: linear-gradient(rgb(229, 255, 0),rgb(0, 255, 0));
+            border: 1px solid;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child" id="child1">CHILD1</div>
+        <div class="child" id="child2">CHILD2</div>
+        <div class="child" id="child3">CHILD3</div>
+        <div class="child" id="child4">CHILD4</div>
+        <div class="child" id="child5">CHILD5</div>
+        <div class="child" id="child6">CHILD6</div>
+        <div class="child" id="child7">CHILD7</div>
+        <div class="child" id="child8">CHILD8</div>
+        <div class="child" id="child9">CHILD9</div>
+
+    </div>
+</body>
+</html>

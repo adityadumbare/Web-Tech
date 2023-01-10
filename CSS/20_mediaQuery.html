@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        #nav{
+            width: 1800px;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+            border: 1px solid;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid;
+        }
+
+        @media (min-width:200px)and(max-width:600px){
+            *{
+            margin: 0;
+            padding: 0;
+
+        }
+       #nav{
+            width: 1800px;
+            height: 100%;
+            background-color: rgb(106, 104, 104);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 0, 0);
+            border: 1px solid;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid;
+        }
+        }
+        @media (min-width:601px) and (max-width:1400px){
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        #nav{
+            width: 1800px;
+            height: 100%;
+            background-color: rgb(106, 104, 104);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: rgb(255, 0, 0);
+            border: 1px solid;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+        <div class="box" id="box4">box4</div>
+    </div>
+</body>
+</html>
